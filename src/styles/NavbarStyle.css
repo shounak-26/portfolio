@@ -1,0 +1,85 @@
+.box .navButtons {
+    display: flex;
+    align-items: center;
+    font-family: Roboto (ttf) Helvetica Arial sans-serif;
+    font-weight: bolder;
+    background-color: #151515;
+  
+}
+
+.box .navButtons:hover {
+    color: rgb(255, 226, 146);
+    background-color: #151515; 
+   
+    
+}
+
+.main .name {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    
+}
+
+
+/* Common styles for large screens */
+.box .navButtons {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.main .name {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+}
+
+/* styles.css (or your component's style file) */
+.fade-in {
+    animation: cubic-bezier(0.215, 0.610, 0.355, 1);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for screens smaller than 600px (adjust as needed) */
+@media (max-width: 600px) {
+    .box .navButtons {
+        /* Styles for small screens */
+        font-size: 14px; /* Adjust font size for small screens */
+    }
+
+    .main .name {
+        /* Styles for small screens */
+        font-size: 18px; /* Adjust font size for small screens */
+    }
+}
+
