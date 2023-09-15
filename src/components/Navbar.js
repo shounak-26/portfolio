@@ -16,7 +16,7 @@ import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 function Navbar() {
   return (
-    <div style={{ backgroundColor: "#151515", minHeight: "100vh" }}>
+    <div style={{ backgroundColor: "#151515" }}>
       <AppBar
         className="navbar"
         position="static"

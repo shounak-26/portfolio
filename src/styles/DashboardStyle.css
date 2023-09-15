@@ -1,0 +1,44 @@
+.dashboardmain {
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+}
+
+.hello {
+    margin-left: 5vh;
+    margin-top: 20vh;
+
+}
+
+.hello .text {
+
+    margin-left: 12vh;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    color: RGB(196, 196, 196);
+    font-size: larger;
+    line-height: 20px;
+    width: fit-content;
+}
+
+.hello .text2 {
+    /* Add a specific distance from the left edge */
+    margin-left: 12vh;
+    /* Adjust this value as needed */
+    margin-top: 6vh;
+    font-family: DM Serif Display;
+    font-weight: bolder;
+    color: RGB(255, 255, 255);
+    font-size: 6vh;
+    line-height: 5vh;
+    width: fit-content;
+}
+
+.secondcontainer{
+    border-radius: 25vh;
+}
+.secondcontainer .avatar{
+    height: 150%;
+    width: 90%;
+    border: none;
+    margin-top: 2vh;
+}

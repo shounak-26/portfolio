@@ -21,7 +21,6 @@
 }
 
 
-/* Common styles for large screens */
 .box .navButtons {
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-weight: bolder;
@@ -32,45 +31,9 @@
     font-weight: 700;
 }
 
-/* styles.css (or your component's style file) */
-.fade-in {
-    animation: cubic-bezier(0.215, 0.610, 0.355, 1);
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media query for screens smaller than 600px (adjust as needed) */
 @media (max-width: 600px) {
     .box .navButtons {
         /* Styles for small screens */
