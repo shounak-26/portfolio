@@ -1,0 +1,543 @@
+.skillsection {
+    color: tan;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+    transform: skewY(2deg);
+    margin-left: 10vh;
+    margin-top: 4vh;
+    
+}
+
+.skillsection > div {
+    flex: 1; /* Distribute available space equally among the elements */
+
+}
+
+
+.skills-wrapper{
+	background-color: #1A1A1A ;
+	transform: skewY(-2deg);
+    margin-top:40vh;
+    overflow-x: hidden;
+
+}
+
+.skills-wrapper h3{
+    color: white;
+	text-align: center;
+	padding-bottom: 10px;	
+	transform: skewY(2deg);
+}
+
+.skills-wrapper h6{
+    font-family: Inter, sans-serif;
+	text-align: center;
+	margin: 0 3em 0.5em 3em;
+    line-height: 5vh;
+	transform: skewY(2deg);
+    color: #C2C27D;
+}
+
+
+.skillsection img{
+    width: 20%;
+}
+
+.skillsection .githubimg:hover, 
+.skillsection .javascriptimg:hover, 
+.skillsection .reactjsimg:hover, 
+.skillsection .htmlimg:hover, 
+.skillsection .cssimg:hover, 
+.skillsection .sqlimg:hover, 
+.skillsection .javaimg:hover, 
+.skillsection .springimg:hover, 
+.skillsection .pythonimg:hover, 
+.skillsection .microserviceimg:hover  {    
+	transition: 1s ease;
+	transform: rotateZ(360deg);
+}
+
+
+/* RESPONSIVENESS */
+
+
+/* @media (max-width: 800px) {
+	
+
+	.toggle-button{
+		display: flex;
+	}
+
+	.toggle-button:hover{
+		transition: 0.35s;
+		background-color: #757679;
+		cursor: pointer;
+	}
+
+	.navbar-links{
+		display: none;
+		flex-direction: column;
+		width: 100%;
+		text-align: center;
+	}
+
+	.active{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		text-align: center;
+	}
+	.active a{	
+		padding:5px 15px 5px 15px;
+		font-size: 16px;
+	}
+
+	.active a:hover{
+		transition: 0.35s;
+		color: white;
+		background-color: #757679;
+	}	
+	.footer {
+		font-size: 11px;
+	}
+} */
+
+
+/* @media (max-width: 1026px) {
+	
+	.home{
+		padding: 7em;
+	}
+	.name{
+		font-size: 30px;
+	}
+	.home h5{
+		font-size: 18px;
+	}
+	.eat{
+		width: 100%;
+		height: 18rem;
+	}
+
+	.know-more button {
+		font-size: 16px;
+		width: 12em;
+	}
+
+	.about-wrapper h3{
+		font-size: 25px;
+	}
+
+	.my-pic img{
+		padding: 0;
+		width: 90%;
+		margin-left: 10%;
+	}
+
+	.about-wrapper h6{
+		font-size: 15px;
+	}
+
+
+	.know-btn button{
+		margin-top: 2em;
+		font-size: 16px;
+		width: 13em;
+	}
+
+	.skills-wrapper h3{
+		font-size: 25px;
+	}
+	.skills-wrapper img{
+		width: 22%;
+	}
+	.skills-wrapper h5{
+		font-size: 18px;
+	}
+
+	.portfolio-wrapper h3{
+		font-size: 25px;
+	}
+	.portfolio-wrapper h5{
+		font-size: 18px;
+	}
+	.portfolio-wrapper p{
+		font-size: 15px;
+	}
+	#ecommerce,.ec-head{
+		width: 95%;
+		margin-left: 10px;
+	}
+	#mini-website,.mini-head{
+		width: 95%;
+		margin-left: 0;
+	}
+	.view button{
+		width: 23%;
+	}
+	.covid-head{
+		width: 95%;
+		margin-left: 10px;
+		margin-bottom: 2.3em;
+	}
+	.covid{
+		width: 95%;
+		margin-left: 10px;
+		height: 17em;
+	}
+	.zero21{
+		width: 95%;
+		margin-left: 0;		
+		height: 17em;
+	}
+	.zero21-head{
+		width: 95%;
+		margin-left: 0;		
+	}
+
+	.tictactoe{
+		width: 95%;
+		margin-left: 10px;
+		height: 17em;
+	}
+	.tictactoe-head{
+		width: 95%;
+		margin-left: 10px;
+	}
+
+	.certifications-wrapper h3{
+		font-size: 25px;
+	}
+	.cert-row-ht{
+		height: 14em;
+		margin-top: 1.5em;
+	}
+	.btn-wrapper{
+		text-align: center;	
+		margin-top: -11em;
+	}
+	.text{
+		color:transparent;			
+		font-size: 14px;
+		text-align: center;
+		margin:0 5em;
+	}
+	.certificate:hover .btn-wrapper button{
+		margin-top: 20px;
+		margin-left: 30%;
+		display: block;
+		filter: brightness(100%);
+		font-size: 14px;
+	}
+
+	.certifications-wrapper{
+		height: 50rem;
+	}
+
+	.contact-wrapper h3{
+		font-size: 25px;
+	}
+	
+} */
+
+	
+/* @media (max-width: 767px){
+
+	.home{
+		padding-bottom: 0;
+	}
+	.hr{
+		border-bottom: 2px solid #8A8D8F;
+		margin: 1em 0 1em 28%;
+		width: 45%;
+	}
+	.home h5{
+		text-align: left;
+		margin-left: 28%;
+		font-size: 16px;
+	}
+	.eat{
+		height: 93%;
+	}
+	.know-more button {
+		font-size: 14px;
+		width: 12em;
+	}
+	.about-wrapper h3{
+		font-size: 22px;
+	}
+	.about-hr{
+		width: 22%;
+		margin-left: 39%;
+	}
+	.my-pic{
+		text-align: center;
+	}
+	.my-pic img{
+		width: 40%;
+	}
+	.about-text{
+		margin: 0 10px 0 15px;
+	}
+	.about-text h6{
+		font-size: 14px;
+	}
+	.know-btn button{
+		margin-top: 2em;
+		font-size: 14px;
+		width: 13em;
+	}
+	
+	.skills-wrapper h3{
+		font-size: 22px;
+	}
+	.skills-wrapper h6{
+		font-size: 14px;
+	}
+	.skills-wrapper img{
+		width: 14%;
+	}
+	.skills-wrapper h5{
+		font-size: 15px;		
+		margin-left: 2em;
+	}
+	.portfolio-wrapper h3{
+		font-size: 22px;
+	}
+
+
+	#ecommerce,.ec-head{
+		width: 90%;
+		margin-left: 25px;
+	}
+	#mini-website,.mini-head{
+		width: 90%;
+		margin-left: 25px;
+	}
+	#mini-website{		
+		max-height: 23em;
+	}
+	.view button{
+		width: 23%;
+		margin-bottom: 1.5em;		
+	}
+	.covid-head{
+		margin-bottom: 0;
+		margin-left: 25px;
+		width: 90%;
+		margin-top: 0;
+	}
+	.covid{
+		margin-left: 25px;
+		width: 90%;
+		margin-top: 0;
+	}
+	.zero21, .zero21-head{
+		width: 90%;
+		margin-left: 25px;
+	}
+	.tictactoe-head, .tictactoe{
+		width: 90%;
+		margin-left: 25px;
+	}
+
+	.certifications-wrapper h3{
+		font-size: 23px;
+	}
+	.certifications-wrapper{
+		height: 100em;
+	}
+	.cert-row-ht{
+		height: 35em;
+	}
+	.certificate{
+		height: 15em;
+	}
+	.btn-wrapper{
+		width: 60%;
+		margin-left: 19.5%;
+		margin-top: -11.2em;
+	}
+	.certificate:hover .btn-wrapper button{
+		margin-top: 20px;
+		margin-left: 35%;
+		font-size: 14px;
+	}
+	.cert-contact-separater{
+		display: none;
+	}
+	.contact-hr{
+		width: 25%;
+		margin-left: 37%;
+	}
+	.formm{
+		margin-left: 17%;
+		width: 92%;
+	}
+	.submit{
+		margin-left: 22%;
+	}	
+	.find-hr{
+		width: 25%;
+		margin-left: 37%;
+	}	
+	.find h3{
+		font-size: 23px;
+	}
+} */
+
+/* @media (max-width: 500px) {
+	
+	.toggle-button{
+		width:40px;
+		height: 30px;
+	}
+	.home{
+		padding-bottom: 0;
+	}
+	.name{
+		font-size: 28px;
+	}
+	.know-more button {
+		font-size: 14px;
+		width: 13em;
+	}
+	.eat{
+		height: 100%;
+	}
+	.about-wrapper h3{
+		font-size: 22px;
+	}
+	.my-pic{
+		text-align: center;
+	}
+	.my-pic img{		
+		width: 52%;
+	}
+	.about-wrapper h6{
+		font-size: 14px;
+	}
+	.know-btn button{
+		margin-top: 2em;
+		font-size: 14px;
+		width: 13em;
+	}
+	.skills-wrapper h3{
+		font-size: 22px;
+	}
+	.skills-wrapper h6{
+		font-size: 14px;
+	}
+	.skills-wrapper img{
+		width: 19%;
+	}
+	.skills-wrapper h5{
+		font-size: 15px;		
+		margin-left: 2em;
+	}
+	.skills-hr{
+		margin-left: 33%;
+		width: 35%;
+	}
+
+
+	.portfolio-wrapper h3{
+		font-size: 22px;
+	}
+	.portfolio-hr{
+		width: 41%;
+		margin-left: 28%;
+
+	}
+	.ec-head h5, .mini-head h5, .covid-head h5, .zero21-head h5, .tictactoe-head h5{
+		font-size: 16px;
+	}
+	.ec-head p, .mini-head p, .covid-head p, .zero21-head p, .tictactoe-head p{
+		font-size: 14px;
+	}
+	.view button{
+		width: 20.5%;
+		margin-bottom: 1.5em;	
+		font-size: 14px;	
+	}
+	.dropdown-item{
+		font-size: 14px;
+	}
+	#ecommerce,.ec-head{
+		width: 92%;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	#mini-website,.mini-head{
+		width: 92%;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.covid-head{
+		margin-bottom: 0;
+		margin-left: 15px;
+		margin-right: 15px;
+		width: 92%;
+		margin-top: 0;
+	}
+	.covid{
+		margin-left: 15px;
+		margin-right: 15px;
+		width: 92%;
+		margin-top: 0;
+	}
+	.zero21, .zero21-head{
+		width: 92%;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.tictactoe-head, .tictactoe{
+		width: 92%;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.certifications-wrapper h3{
+		font-size: 22px;
+	}
+	.text{
+		width: 80%;
+		margin-left: 10%;
+		font-size: 13px;
+	}
+	.certificate:hover .btn-wrapper button{
+		margin-top: 20px;
+		margin-left: 22%;
+		font-size: 13px;
+	}
+	.cert-contact-separater{
+		display: none;
+	}
+	.certificate{
+		margin-left: 10px;
+	}
+
+	.contact-wrapper h3{
+		font-size: 22px;
+	}
+	.formm{
+		margin-left: 12.5%;
+		width: 105%;
+	}
+	.input-field{
+		height: 2.25em;
+	}
+	.submit-btn button{
+		font-size: 12px;
+		height: 2.6em;
+		width: 6em;
+	}
+	.submit-btn{
+		margin-left: 1em;
+	}
+	.faa{
+		margin-bottom: 1em;
+		margin-left: 10px;
+	}
+} */

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as ScrollLink } from "react-scroll";
 import {
   AppBar,
   Container,
@@ -11,9 +12,9 @@ import {
   Hidden, // Import Hidden component
 } from "@mui/material";
 import "../styles/NavbarStyle.css";
-import AutoAwesomeMotionIcon from '@mui/icons-material/AutoAwesomeMotion';
-import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
-import ContactMailIcon from '@mui/icons-material/ContactMail';
+import AutoAwesomeMotionIcon from "@mui/icons-material/AutoAwesomeMotion";
+import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
+import ContactMailIcon from "@mui/icons-material/ContactMail";
 function Navbar() {
   return (
     <div style={{ backgroundColor: "#151515" }}>
@@ -54,31 +55,39 @@ function Navbar() {
                   display: { md: "flex" },
                   justifyContent: "end",
                 }}
-                
               >
-                <Button
-                  className="navButtons hvr-float" 
-                  sx={{
-                    my: 2,
-                    mx: 3,
-                    color: "whitesmoke",
-                  }}
-                  endIcon={<AutoAwesomeMotionIcon />}
+                <ScrollLink
+                  activeClass="active"
+                  to="portfolio"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={1000}
                 >
-                  Portfolio
-                </Button>
+                  <Button
+                    className="navButtons hvr-float"
+                    sx={{
+                      my: 2,
+                      mx: 3,
+                      color: "whitesmoke",
+                    }}
+                    endIcon={<AutoAwesomeMotionIcon />}
+                  >
+                    Portfolio
+                  </Button>
+                </ScrollLink>
 
                 <Button
                   className="navButtons"
                   sx={{ my: 2, mx: 3, color: "whitesmoke" }}
-                  endIcon= {<PictureAsPdfIcon/>}
+                  endIcon={<PictureAsPdfIcon />}
                 >
                   Resume
                 </Button>
                 <Button
                   className="navButtons"
-                  sx={{ my: 2, mx: 3, color: "whitesmoke"}}
-                  endIcon= {<ContactMailIcon/>}
+                  sx={{ my: 2, mx: 3, color: "whitesmoke" }}
+                  endIcon={<ContactMailIcon />}
                 >
                   Contact Us
                 </Button>
