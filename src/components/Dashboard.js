@@ -20,7 +20,7 @@ function Dashboard() {
       <Container
         className="secondcontainer"
       >
-        <Avatar className="avatar animate__animated animate__fadeIn"
+        <Avatar className="avatar animate__animated animate__pulse"
                 alt="Remy Sharp"
                 src="/images/sample.gif"
               />
