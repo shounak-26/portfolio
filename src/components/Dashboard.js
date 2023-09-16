@@ -1,4 +1,4 @@
-import { Container, Typography, Avatar } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 import React from "react";
 import "../styles/DashboardStyle.css";
 import 'animate.css';
@@ -17,13 +17,19 @@ function Dashboard() {
           Design and Code 🎉✨
         </Typography>
       </Container>
-      <Container
-        className="secondcontainer"
-      >
-        <Avatar className="avatar animate__animated animate__pulse"
-                alt="Remy Sharp"
-                src="/images/sample.gif"
-              />
+      <Container className="secondcontainer">
+        <div className="image-container">
+          <img
+            className="static-image"
+            alt="" 
+            src="/images/sampleimg.jpg"
+          />
+          <img
+            className="animated-gif"
+            alt="" 
+            src="/images/sample.gif"
+          />
+        </div>
       </Container>
     </div>
   );
