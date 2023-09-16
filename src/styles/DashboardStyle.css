@@ -33,12 +33,17 @@
     width: fit-content;
 }
 
-.secondcontainer{
-    /* border-radius: 25vh; */
-}
+
 .secondcontainer .avatar{
-    height: 150%;
-    width: 90%;
+    height: 120%;
+    width: 80%;
     border: none;
-    margin-top: 2vh;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    transition: transform 0.3s ease, box-shadow 2s ease; 
+    transform-origin: center center; 
 }
+.secondcontainer .avatar:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 0px 20px rgb(255, 255, 252); 
+  }

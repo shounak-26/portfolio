@@ -1,6 +1,7 @@
 import { Container, Typography, Avatar } from "@mui/material";
 import React from "react";
 import "../styles/DashboardStyle.css";
+import 'animate.css';
 
 function Dashboard() {
   return (
@@ -19,7 +20,7 @@ function Dashboard() {
       <Container
         className="secondcontainer"
       >
-        <Avatar className="avatar"
+        <Avatar className="avatar animate__animated animate__fadeIn"
                 alt="Remy Sharp"
                 src="/images/sample.gif"
               />
