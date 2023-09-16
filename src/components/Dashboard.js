@@ -1,7 +1,6 @@
-import { Container, Box, Typography, Grid, Avatar } from "@mui/material";
+import { Container, Typography, Avatar } from "@mui/material";
 import React from "react";
 import "../styles/DashboardStyle.css";
-import { Gif } from "@mui/icons-material";
 
 function Dashboard() {
   return (
@@ -22,7 +21,7 @@ function Dashboard() {
       >
         <Avatar className="avatar"
                 alt="Remy Sharp"
-                src="/images/Untitled.gif"
+                src="/images/UNtitled.gif"
               />
       </Container>
     </div>
