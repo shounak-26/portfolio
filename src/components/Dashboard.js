@@ -21,7 +21,7 @@ function Dashboard() {
       >
         <Avatar className="avatar"
                 alt="Remy Sharp"
-                src="/images/UNtitled.gif"
+                src="/images/Testing.gif"
               />
       </Container>
     </div>
