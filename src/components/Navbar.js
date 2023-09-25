@@ -84,6 +84,14 @@ function Navbar() {
                 >
                   Resume
                 </Button>
+                <ScrollLink
+                  activeClass="active"
+                  to="contact-us"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={1000}
+                >
                 <Button
                   className="navButtons"
                   sx={{ my: 2, mx: 3, color: "whitesmoke" }}
@@ -91,6 +99,7 @@ function Navbar() {
                 >
                   Contact Us
                 </Button>
+                </ScrollLink>
               </Box>
             </Hidden>
           </Toolbar>

@@ -4,143 +4,161 @@ function Portfolio() {
   return (
     <div id="portfolio">
       <div className="skills-wrapper" id="skills">
-        <br />
-        <br />
-        <br />
-        <h3>TECHNICAL SKILLS</h3>
-        <br />
-        <br />
-
-        <h6>
-          I'm a versatile developer proficient in a wide spectrum of
-          technologies. On the frontend, I specialize in crafting delightful
-          user experiences using ⚛️ ReactJS, 🌐 HTML/CSS/JS, 🅱️ Bootstrap, and
-          ⚛️ MaterialUI. When it comes to the backend, I wield the power of ☕
-          Java, ⚙️ Spring, 🚀 Spring Boot, ⚙️ Spring MVC, 🅱️ Spring Hibernate,
-          and 🐍 Python. These skills enable me to build end-to-end web
-          solutions that seamlessly integrate user-centric design with robust
-          server-side functionality.
-        </h6>
-        <br />
-        <br />
-
-        <div className="row skillsection">
-          <div className="java">
-            <h5>
-              <strong>
-                <img
-                className="javaimg"
-                  alt=""
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
-                />{" "}
-                &nbsp;JAVA
-              </strong>
-            </h5>
+        <div className="firstimg-container">
+          <div className="card">
+            <div className="tools">
+              <div className="circle">
+                <span className="red box"></span>
+              </div>
+              <div className="circle">
+                <span className="yellow box"></span>
+              </div>
+              <div className="circle">
+                <span className="green box"></span>
+              </div>
+            </div>
+            <div className="card__content">
+              <img src="/images/Ebanking.png" alt="" className="card-image" />
+            </div>
           </div>
-
-          <div className="spring">
-            <h5>
-              <strong>
-                <img alt="" className="springimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" /> &nbsp;Spring
-              </strong>
-            </h5>
-          </div>
-
-          <div className="python">
-            <h5>
-              <strong>
-                <img className="pythonimg" alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"/> &nbsp;Python
-              </strong>
-            </h5>
-          </div>
-
-          <div className="microservices">
-            <h5>
-              <strong>
-                <img className="microserviceimg" alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" /> &nbsp;Microservices
-              </strong>
-            </h5>
-          </div>
-          <div className="sql">
-            <h5>
-              <strong>
-                <img className="sqlimg" alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"  /> &nbsp;MySQL
-              </strong>
-            </h5>
+        </div>
+        <div className="firstcontent-container">
+          <div className="card__content">
+            <div className="heading">
+              <h3 className="first">01 🏦 E-Banking System Project 🌐</h3>
+            </div>
+            <div className="line">
+              <br /> 🏦 In my E-Banking System Portfolio Project, I harnessed my
+              expertise in Java, Spring Boot, SQL, HTML, CSS, and JavaScript to
+              create a customer-centric banking solution. Customers can
+              seamlessly manage their accounts, perform secure transactions,
+              view detailed transaction histories, and enjoy the flexibility of
+              adding or deleting accounts. This project underscores my
+              proficiency in full-stack development, ensuring online
+              accessibility for users worldwide while prioritizing security and
+              efficiency. It stands as a testament to my ability to deliver
+              real-world financial solutions that prioritize user experience and
+              data security, making it a valuable addition to my portfolio.
+              🌐💼🔒🚀
+            </div>
           </div>
         </div>
 
-        <div className="row skillsection">
-          <div className="html">
-            <h5>
-              <strong>
-                <img
-                className="htmlimg"
-                  alt=""
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" 
-                />{" "}
-                &nbsp;HTML
-              </strong>
-            </h5>
-          </div>
+        <br />
 
-          <div className="css">
-            <h5>
-              <strong>
-                <img alt="" className="cssimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"  /> &nbsp;CSS
-              </strong>
-            </h5>
+        <div className="firstimg-container">
+          <div className="card">
+            <div className="tools">
+              <div className="circle">
+                <span className="red box"></span>
+              </div>
+              <div className="circle">
+                <span className="yellow box"></span>
+              </div>
+              <div className="circle">
+                <span className="green box"></span>
+              </div>
+            </div>
+            <div className="card__content">
+              <img src="/images/Predictify.png" alt="" className="card-image" />
+            </div>
           </div>
-
-          <div className="javascript">
-            <h5>
-              <strong>
-                <img className="javascriptimg" alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"/> &nbsp;JavaScript
-              </strong>
-            </h5>
-          </div>
-
-          <div className="reactjs">
-            <h5>
-              <strong>
-                <img className="reactjsimg" alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" /> &nbsp;ReactJS
-              </strong>
-            </h5>
-          </div>
-          <div className="github">
-            <h5>
-              <strong>
-              <img className="githubimg" alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" /> &nbsp;GitHub  
-              </strong>
-            </h5>
+        </div>
+        <div className="firstcontent-container second">
+          <div className="card__content">
+            <div className="heading">
+              <h3 className="first">
+                02 📊Predictify: Product Correlation Wizard
+              </h3>
+            </div>
+            <div className="line">
+              <br /> Predictify, powered by Python and ML, maximizes sales
+              potential by revealing product correlations. Import data, gain
+              insights, and optimize your business strategy effortlessly.
+              Elevate your business decisions with data-driven precision.
+              Predictify can be used in malls and stores to tell the corelation
+              between the products for better sales. 🚀📊
+            </div>
           </div>
         </div>
 
+        <br />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div className="firstimg-container">
+          <div className="card">
+            <div className="tools">
+              <div className="circle">
+                <span className="red box"></span>
+              </div>
+              <div className="circle">
+                <span className="yellow box"></span>
+              </div>
+              <div className="circle">
+                <span className="green box"></span>
+              </div>
+            </div>
+            <div className="card__content">
+              <img src="/images/test.png" alt="" className="card-image" />
+            </div>
+          </div>
+        </div>
+        <div className="firstcontent-container third">
+          <div className="card__content">
+            <div className="heading">
+              <h3 className="first">
+                03 📝 Inotebook - Your Digital Notepad 🚀
+              </h3>
+            </div>
+            <div className="line">
+              <br /> Inotebook is a secure ReactJS and Express JS project that
+              lets you create, update, and delete notes. Built with JWT token
+              authentication, it's your go-to digital notepad for organized
+              thoughts and ideas. Explore it now!
+            </div>
+          </div>
+        </div>
 
         <br />
-        <br />
+
+        <div className="firstimg-container">
+          <div className="card">
+            <div className="tools">
+              <div className="circle">
+                <span className="red box"></span>
+              </div>
+              <div className="circle">
+                <span className="yellow box"></span>
+              </div>
+              <div className="circle">
+                <span className="green box"></span>
+              </div>
+            </div>
+            <div className="card__content">
+              <img
+                src="/images/StudentManagement.png"
+                alt=""
+                className="card-image"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="firstcontent-container forth">
+          <div className="card__content">
+            <div className="heading">
+              <h3 className="first">04 📚 Student Management System 🏫</h3>
+            </div>
+            <div className="line">
+              <br /> Discover a dynamic Student Management System which is a
+              freelance project powered by Python's Tkinter GUI and SQL,
+              designed to streamline student information management for Tulips
+              Play School Aurangabad. With features like effortless student
+              addition, real-time updates, and Excel data import/export, this
+              system ensures efficient and accurate record-keeping, simplifying
+              administrative tasks for schools and institutions. Elevate your
+              institution's efficiency with this user-friendly solution. 🎓💼
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

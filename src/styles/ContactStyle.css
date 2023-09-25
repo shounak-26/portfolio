@@ -1,0 +1,97 @@
+.contactus {
+    display: flex;
+    margin-top: 5vh;
+    background-color: #1A1A1A;
+    transform: skewY(-2deg);
+}
+
+
+.contact {
+    position: relative;
+    margin-top: 3vh;
+    width: 100%;
+    height: auto;
+    margin-right: 2vh;
+    transform: skewY(2deg);
+}
+
+.Contact-card {
+    width: 18em;
+    height: 18em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    margin-left: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-card span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+}
+
+.Contact-card .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+
+}
+
+.Contact-card .img {
+    width: 4.8em;
+    height: 4.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.Contact-card .share {
+
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1.5vh;
+}
+
+.Contact-card .social {
+    color: white;
+    transition: .4s ease-in-out;
+}
+
+.Contact-card .social:hover {
+    color: red;
+}
+
+.Contact-card button {
+
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+
+}
+
+.Contact-card button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex: 1.5;
+    height: 18em;
+    transform: skewY(2deg);
+    margin-top: 5vh;
+
+}
