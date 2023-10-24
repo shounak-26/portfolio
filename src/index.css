@@ -13,3 +13,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Default styling for the desktop message */
+.desktop-message {
+  display: none; /* Initially hide the message */
+}
+
+/* Media query to display the message on screens with a max width of 767px (adjust as needed) */
+@media (max-width: 767px) {
+  .desktop-message {
+      display: block; /* Display the message on smaller screens */
+      text-align: center;
+      background-color: #333; /* Customize the background color */
+      color: #fff; /* Customize the text color */
+      padding: 20px;
+      font-size: 18px;
+  }
+
+  .website-content {
+      display: none; /* Hide your website content on smaller screens */
+  }
+}

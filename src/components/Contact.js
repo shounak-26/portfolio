@@ -2,6 +2,9 @@ import React from "react";
 import "../styles/ContactStyle.css";
 import { Link } from "react-scroll";
 function Contact() {
+  function openExternalLink(url) {
+    window.open(url, "_blank");
+  }
   return (
     <div className="contactus" id="contact-us">
       <div className="contact">
@@ -15,7 +18,7 @@ function Contact() {
             profiles, like to have in my connect 😄
           </p>
           <div className="share">
-            <Link className="social" to="https://github.com/shounak-26">
+            <Link className="social" onClick={() => openExternalLink("https://github.com/shounak-26")}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -28,11 +31,11 @@ function Contact() {
               </svg>
             </Link>
 
-            <Link className="social">
+            <Link className="social"  style={{marginTop:"0.4vh"}} onClick={() => openExternalLink("https://www.linkedin.com/in/shounak-purnapatre/")}>
                 <i class="devicon-linkedin-plain"></i>
             </Link>
 
-            <Link className="social" to="https://www.instagram.com/_s_h_o_u_n_a_k_/">
+            <Link className="social" onClick={()=>openExternalLink("https://www.instagram.com/_s_h_o_u_n_a_k_/")}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"

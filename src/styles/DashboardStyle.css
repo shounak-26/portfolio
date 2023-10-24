@@ -1,16 +1,15 @@
+/* Default styles for larger screens */
 .dashboardmain {
     display: grid;
     grid-template-columns: 1.30fr 1fr;
-}
-
-.hello {
+  }
+  
+  .hello {
     margin-left: 5vh;
     margin-top: 20vh;
-
-}
-
-.hello .text {
-
+  }
+  
+  .hello .text {
     margin-left: 12vh;
     font-family: Inter, sans-serif;
     font-weight: bold;
@@ -18,12 +17,10 @@
     font-size: larger;
     line-height: 20px;
     width: fit-content;
-}
-
-.hello .text2 {
-    /* Add a specific distance from the left edge */
+  }
+  
+  .hello .text2 {
     margin-left: 12vh;
-    /* Adjust this value as needed */
     margin-top: 6vh;
     font-family: DM Serif Display;
     font-weight: bolder;
@@ -31,20 +28,17 @@
     font-size: 6vh;
     line-height: 5vh;
     width: fit-content;
-}
-
-.secondcontainer {
+  }
+  
+  .secondcontainer {
     position: relative;
     display: inline-block;
     margin-top: 10vh;
     margin-bottom: 10vh;
-   
-
-}
-
-
-.static-image,
-.animated-gif {
+  }
+  
+  .static-image,
+  .animated-gif {
     position: absolute;
     object-fit: cover;
     overflow: hidden;
@@ -52,22 +46,21 @@
     height: 150%;
     width: 60%;
     margin-left: 10vh;
-
-}
-
-.static-image {
+  }
+  
+  .static-image {
     z-index: 1;
     opacity: 1;
-}
-
-.animated-gif {
+  }
+  
+  .animated-gif {
     z-index: 2;
     opacity: 0;
-
-}
-
-.secondcontainer:hover .animated-gif {
+  }
+  
+  .secondcontainer:hover .animated-gif {
     transform: scale(1.1);
     box-shadow: 0px 0px 20px rgb(151, 144, 144);
     opacity: 1;
-}
+  }
+  

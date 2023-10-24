@@ -18,10 +18,10 @@ import ContactMailIcon from "@mui/icons-material/ContactMail";
 function Navbar() {
 
   const pdfUrl =
-    "https://drive.google.com/file/d/1M93ioSSQX_XsuUKETqwsaZEiVbHrxAWa/view?usp=drive_link";
+    "https://drive.google.com/file/d/1LV8axf8F5QF44jH0_qgLIpbVd5TKkixW/view?usp=sharing";
 
   const handleButtonClick = () => {
-    window.open(pdfUrl, "_blank"); // Open the PDF in a new tab
+    window.open(pdfUrl, "_blank");
   };
 
   return (
