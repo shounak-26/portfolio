@@ -15,7 +15,10 @@ code {
 }
 /* Default styling for the desktop message */
 .desktop-message {
-  display: none; /* Initially hide the message */
+  display: none; 
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
 }
 
 /* Media query to display the message on screens with a max width of 767px (adjust as needed) */
