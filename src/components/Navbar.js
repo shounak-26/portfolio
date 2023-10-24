@@ -18,7 +18,7 @@ import ContactMailIcon from "@mui/icons-material/ContactMail";
 function Navbar() {
 
   const pdfUrl =
-    "https://drive.google.com/file/d/1LV8axf8F5QF44jH0_qgLIpbVd5TKkixW/view?usp=sharing";
+    "https://drive.google.com/file/d/1c5e-7bKfrmqjwLwwcNhUpumU0v_Os2eb/view?usp=sharing";
 
   const handleButtonClick = () => {
     window.open(pdfUrl, "_blank");
