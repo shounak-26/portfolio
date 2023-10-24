@@ -9,13 +9,21 @@ import {
   Typography,
   Box,
   Button,
-  Hidden, // Import Hidden component
+  Hidden
 } from "@mui/material";
 import "../styles/NavbarStyle.css";
 import AutoAwesomeMotionIcon from "@mui/icons-material/AutoAwesomeMotion";
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
 function Navbar() {
+
+  const pdfUrl =
+    "https://drive.google.com/file/d/1M93ioSSQX_XsuUKETqwsaZEiVbHrxAWa/view?usp=drive_link";
+
+  const handleButtonClick = () => {
+    window.open(pdfUrl, "_blank"); // Open the PDF in a new tab
+  };
+
   return (
     <div style={{ backgroundColor: "#151515" }}>
       <AppBar
@@ -81,9 +89,18 @@ function Navbar() {
                   className="navButtons"
                   sx={{ my: 2, mx: 3, color: "whitesmoke" }}
                   endIcon={<PictureAsPdfIcon />}
+                  onClick={handleButtonClick}
                 >
                   Resume
                 </Button>
+                <a
+       
+                  href="https://drive.google.com/file/d/1M93ioSSQX_XsuUKETqwsaZEiVbHrxAWa/view?usp=drive_link"
+                  download="shounakResume.pdf"
+                  style={{ display: "none" }}
+                >
+                  Download PDF
+                </a>
                 <ScrollLink
                   activeClass="active"
                   to="contact-us"
@@ -92,13 +109,13 @@ function Navbar() {
                   offset={-70}
                   duration={1000}
                 >
-                <Button
-                  className="navButtons"
-                  sx={{ my: 2, mx: 3, color: "whitesmoke" }}
-                  endIcon={<ContactMailIcon />}
-                >
-                  Contact Us
-                </Button>
+                  <Button
+                    className="navButtons"
+                    sx={{ my: 2, mx: 3, color: "whitesmoke" }}
+                    endIcon={<ContactMailIcon />}
+                  >
+                    Contact Us
+                  </Button>
                 </ScrollLink>
               </Box>
             </Hidden>
