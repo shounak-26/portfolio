@@ -14,7 +14,7 @@ function Dashboard() {
           <br />
           Mastering the Art of User-Centric <br />
           <br />
-          Design and Code 🎉✨
+          Design & Code 🎉✨
         </Typography>
       </Container>
       <Container className="secondcontainer animate__animated animate__fadeIn">
