@@ -33,12 +33,8 @@ function Portfolio() {
               create a customer-centric banking solution. Customers can
               seamlessly manage their accounts, perform secure transactions,
               view detailed transaction histories, and enjoy the flexibility of
-              adding or deleting accounts. This project underscores my
-              proficiency in full-stack development, ensuring online
-              accessibility for users worldwide while prioritizing security and
-              efficiency. It stands as a testament to my ability to deliver
-              real-world financial solutions that prioritize user experience and
-              data security, making it a valuable addition to my portfolio.
+              adding or deleting accounts. This project is Tested & deployed via a Jenkins 
+              pipeline, so when new commit happens project will be deployed to end user with changes.
               🌐💼🔒🚀
             </div>
           </div>
