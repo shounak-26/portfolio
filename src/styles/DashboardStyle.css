@@ -4,6 +4,14 @@
 .dashboardmain {
   display: grid;
   grid-template-columns: 1.3fr 1fr;
+
+}
+
+.experience{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 7%;
 }
 
 .hello {

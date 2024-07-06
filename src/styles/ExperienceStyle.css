@@ -1,0 +1,81 @@
+.timeline {
+    width: 100%;
+}
+
+.timelinecontent {
+    color: whitesmoke;
+    position: relative;
+    margin: auto !important;
+}
+
+.timelineopposite {
+    margin: auto !important;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    line-height: 6rem !important;
+    letter-spacing: 0.00938em !important;
+    padding: 6px 16px !important;
+    margin-right: auto !important;
+    text-align: right !important;
+    flex: 1 !important;
+    color: white !important;
+}
+
+.timeline .MuiTimelineDot-root.badgeicon {
+    font-size: 2rem !important;
+    background-color: #ffe292;
+    color: black;
+}
+
+.project-experience {
+    color: #ffe292;
+}
+
+.educationtimeline {
+    margin: auto !important;
+    color: white;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+    line-height: 6rem !important;
+}
+
+/* Flexbox and media queries for responsiveness */
+@media (max-width: 768px) {
+    .timelineopposite {
+        font-size: 0.875rem !important;
+        line-height: 3rem !important;
+    }
+
+    .timelinecontent {
+        font-size: 0.875rem !important;
+        line-height: 3rem !important;
+    }
+
+    .timelinecontent > .MuiTypography-root {
+        text-align: center;
+    }
+
+    .project-experience ul {
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .timelineopposite {
+        font-size: 0.75rem !important;
+        line-height: 2.5rem !important;
+    }
+
+    .timelinecontent {
+        font-size: 0.75rem !important;
+        line-height: 2.5rem !important;
+    }
+
+    .timelinecontent > .MuiTypography-root {
+        text-align: center;
+    }
+
+    .project-experience ul {
+        padding-left: 0.5rem;
+    }
+}
