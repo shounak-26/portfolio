@@ -1,15 +1,26 @@
 .skillsection {
 	color: tan;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap; /* Prevent wrapping to the next line */
+	flex-wrap: wrap; /* Enable wrapping */
+	justify-content: center; /* Center items horizontally */
 	transform: skewY(2deg);
-	margin-left: 10vh;
-	margin-top: 4vh;
+	margin: 4vh 10vh;
+	gap: 4vh; /* Add gap between items */
+  }
+
+  .skill-item h5 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap; /* Prevent text from wrapping */
+	text-align: center; /* Center align the text */
   }
   
-  .skillsection > div {
-	flex: 1; /* Distribute available space equally among the elements */
+  
+  .skill-item {
+	flex: 1 1 auto; 
+	max-width: 300px; 
+	text-align: center;
   }
   
   .skills-wrapper1 {
@@ -35,21 +46,48 @@
 	color: #C2C27D;
   }
   
-  .skillsection img {
-	width: 20%;
+  .skill-item img {
+	width: 50px; /* Set a fixed width for the images */
   }
   
-  .skillsection .githubimg:hover,
-  .skillsection .javascriptimg:hover,
-  .skillsection .reactjsimg:hover,
-  .skillsection .htmlimg:hover,
-  .skillsection .cssimg:hover,
-  .skillsection .sqlimg:hover,
-  .skillsection .javaimg:hover,
-  .skillsection .springimg:hover,
-  .skillsection .pythonimg:hover,
-  .skillsection .microserviceimg:hover {
+  .skill-item img:hover {
 	transition: 1s ease;
 	transform: rotateZ(360deg);
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 1024px) {
+	.skill-item {
+	  flex: 1 1 45%; /* Adjust the flex-basis for medium screens */
+	}
+  
+	.skills-wrapper1 h6 {
+	  font-size: 0.9em;
+	  margin: 0 1em 0.5em 1em;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.skill-item {
+	  flex: 1 1 45%; /* Adjust the flex-basis for smaller screens */
+	  margin: 5px;
+	}
+  
+	.skills-wrapper1 h6 {
+	  font-size: 0.9em;
+	  margin: 0 1em 0.5em 1em;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.skill-item {
+	  flex: 1 1 90%; /* Adjust the flex-basis for even smaller screens */
+	  margin: 5px;
+	}
+  
+	.skills-wrapper1 h6 {
+	  font-size: 0.8em;
+	  margin: 0 0.5em 0.5em 0.5em;
+	}
   }
   

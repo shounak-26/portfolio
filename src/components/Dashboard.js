@@ -6,8 +6,10 @@ import "animate.css";
 function Dashboard() {
   return (
     <div className="dashboardmain">
-      <Container className="hello    ">
-        <Typography className="text  animate__animated   animate__tada">Hello🖐, I am Shounak!</Typography>
+      <Container className="hello">
+        <Typography className="text animate__animated animate__tada">
+          Hello🖐, I am Shounak!
+        </Typography>
         <Typography className="text2 animate__animated animate__lightSpeedInLeft">
           Full-Stack Pixel 🎨 Painter 🌐
           <br />

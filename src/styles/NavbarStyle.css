@@ -1,18 +1,53 @@
-/* Default styles for larger screens */
-.box .navButtons {
-    display: flex;
-    align-items: center;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-weight: bolder;
-    background-color: #151515;
+.navbar {
+  background-color: #151515;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-toolbar {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  width: 100%;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10rem;
+}
+
+.name {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+.navButtons {
+  display: flex;
+  align-items: flex-end;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  background-color: #151515;
+}
+
+.navButtons:hover {
+  color: rgb(255, 226, 146);
+  background-color: #151515;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .buttons-container {
+    display: none;
   }
-  
-  .box .navButtons:hover {
-    color: rgb(255, 226, 146);
-    background-color: #151515;
-  }
-  
-  .main .name {
-    font-family: Inter, sans-serif;
-    font-weight: 700;
-  }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/ContactStyle.css";
 import { Link } from "react-scroll";
+import { fontSize, height } from "@mui/system";
 function Contact() {
   function openExternalLink(url) {
     window.open(url, "_blank");
@@ -12,17 +13,17 @@ function Contact() {
           <span>About Me</span>
           <br/>
           <p className="info">
-            I am Shounak Purnapatre. Working in the Virtusa. Having a 1.5 years
-            of experience in Java development and Spring framework. I also
+            I am Shounak Purnapatre. Working in the Virtusa. Having a 2+ years
+            of experience in Full stack with Java & reactjs development. I also
             interested in working with MERN stack. Connect with me on social
-            profiles, like to have in my connect 😄
+            profiles, will like to have you in my connect 😄
           </p>
           <div className="share">
             <Link className="social" onClick={() => openExternalLink("https://github.com/shounak-26")}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="30"
+                height="30"
                 fill="currentColor"
                 className="bi bi-github"
                 viewBox="0 0 16 16"
@@ -31,15 +32,16 @@ function Contact() {
               </svg>
             </Link>
 
-            <Link className="social"  style={{marginTop:"0.4vh"}} onClick={() => openExternalLink("https://www.linkedin.com/in/shounak-purnapatre/")}>
-                <i class="devicon-linkedin-plain"></i>
+            <Link className="social"  style={{ fontSize:"1.9em"}} onClick={() => openExternalLink("https://www.linkedin.com/in/shounak-purnapatre/")}>
+                <i class="devicon-linkedin-plain" ></i>
+           
             </Link>
 
             <Link className="social" onClick={()=>openExternalLink("https://www.instagram.com/_s_h_o_u_n_a_k_/")}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="30"
+                height="30"
                 fill="currentColor"
                 className="bi bi-instagram"
                 viewBox="0 0 16 16"
