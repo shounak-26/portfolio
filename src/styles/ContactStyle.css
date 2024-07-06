@@ -47,21 +47,22 @@
 
 
 .Contact-card .share {
-
     display: flex;
     justify-content: center;
-    gap: 1em;
-    margin-bottom: 1.5vh;
+    gap: 2em;
+    align-items: center;
 }
 
 .Contact-card .social {
     color: white;
     transition: .4s ease-in-out;
+    width: 2rem;
 }
 
 .Contact-card .social:hover {
     color: red;
 }
+
 
 .Contact-card button {
 
@@ -73,7 +74,6 @@
     background: #ffffff;
     color: rgb(0, 0, 0);
     transition: .4s ease-in-out;
-
 }
 
 .Contact-card button:hover {
