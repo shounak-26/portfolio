@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/ContactStyle.css";
 import { Link } from "react-scroll";
-import { fontSize, height } from "@mui/system";
 function Contact() {
   function openExternalLink(url) {
     window.open(url, "_blank");
