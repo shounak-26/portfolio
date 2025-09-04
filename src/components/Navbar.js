@@ -25,7 +25,7 @@ function Navbar() {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   const pdfUrl =
-    "https://drive.google.com/file/d/1235Ev9dBc5STiicc7rt5zrbq-eQPqUIL/view?usp=sharing";
+    "https://drive.google.com/file/d/1sau7qXT_0DtjaDx5R_NeqHI3WNfpEcz-/view?usp=drive_link";
 
   const handleButtonClick = () => {
     window.open(pdfUrl, "_blank");

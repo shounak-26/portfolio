@@ -16,8 +16,9 @@ export default function Experience() {
   return (
     <div className="timeline">
       <Timeline position="alternate">
+
         <TimelineItem>
-          <TimelineOppositeContent className="timelineopposite">
+          <TimelineOppositeContent className="educationtimeline">
             Present
           </TimelineOppositeContent>
           <TimelineSeparator>
@@ -29,13 +30,32 @@ export default function Experience() {
           </TimelineSeparator>
           <TimelineContent className="timelinecontent">
             <Typography variant="h6" component="span">
-              Virtusa Consulting Services, Pune, MH, IN
+              Fiix By Rockwell Automation, Pune
+            </Typography>
+            <Typography variant="subtitle1" component="div" className="project-experience"> 
+                <li>Software Engineer Level-2</li>
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+
+        <TimelineItem>
+          <TimelineOppositeContent className="educationtimeline">
+            May 2025
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot className="badgeicon">
+              <BadgeIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent className="timelinecontent">
+            <Typography variant="h6" component="span">
+              Virtusa Consulting Services, Pune
             </Typography>
             <Typography variant="subtitle1" component="div" className="project-experience">
-              <ul className="project-list">
-                <li>British Telecom   - Jan/2024 : : Present</li>
-                <li>Bank Of Montereal - Jan/2023 : : Sep/2023</li>
-              </ul>
+              <li>British Telecom   - Jan 2024 : May 2025</li>
+              <li>Bank Of Montereal - Jan 2023 : Sep 2023</li>
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -60,7 +80,6 @@ export default function Experience() {
             </Typography>
           </TimelineContent>
         </TimelineItem>
-
         
         <TimelineItem>
           <TimelineOppositeContent className="educationtimeline">
@@ -116,27 +135,6 @@ export default function Experience() {
           </TimelineContent>
         </TimelineItem>
         
-        
-
-
-
-
-
-        {/* <TimelineItem>
-          <TimelineSeparator>
-            <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-            <TimelineDot color="secondary">
-              <RepeatIcon />
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span">
-              Repeat
-            </Typography>
-            <Typography>Because this is the life you love!</Typography>
-          </TimelineContent>
-        </TimelineItem> */}
       </Timeline>
     </div>
   );
