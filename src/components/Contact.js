@@ -26,11 +26,7 @@ function Contact() {
             <Link
               className="social"
               style={{ fontSize: "1.9em" }}
-              onClick={() =>
-                openExternalLink(
-                  "https://github.com/shounak-26/"
-                )
-              }
+              onClick={() => openExternalLink("https://github.com/shounak-26/")}
             >
               <i class="devicon-github-original-wordmark"></i>
             </Link>
@@ -49,14 +45,14 @@ function Contact() {
 
             <Link
               className="social"
-              style={{ fontSize: "1.9em" }}
               onClick={() =>
-                openExternalLink(
-                  "https://leetcode.com/u/_s_h_o_u_n_a_k_/"
-                )
+                openExternalLink("https://leetcode.com/u/_s_h_o_u_n_a_k_/")
               }
             >
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/leetcode/leetcode-original.svg" />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/leetcode/leetcode-original.svg"
+                alt="LeetCode profile icon"
+              />
             </Link>
 
             <Link
